@@ -4,6 +4,10 @@
   "authors": [
     "Christy Haragan <christy@christy.haragan@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "christyharagan/uservices-socket.io-client-polymer"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
