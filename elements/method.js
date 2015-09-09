@@ -25,17 +25,17 @@ Polymer({
     'onMethodName(methodName)',
     'onServiceName(serviceName)'
   ],
-  onArgs(n, o) {
+  onArgs: function(n, o) {
     this.call()
   },
-  onMethodName(n, o) {
+  onMethodName: function(n, o) {
     this.call()
   },
-  onServiceName(n, o) {
+  onServiceName: function(n, o) {
     this.call()
   },
 
-  call() {
+  call: function() {
     var self = this
     if (this.socket && this.args && this.serviceName && this.methodName) {
       var name = this.serviceName + '/' + this.methodName
@@ -49,12 +49,12 @@ Polymer({
     }
   },
 
-  ready() {
+  ready: function() {
     this.socket = io()
     this.call()
   },
 
-  detatched() {
+  detatched: function() {
     this.socket.off()
   }
 })
