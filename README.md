@@ -18,7 +18,7 @@ Basic Usage: (see the uServices project for examples on how to create a uService
 ```Html
 
 <!-- Consume a method -->
-<uservices-method service-name="{{serviceName}}" method-name="{{methdName}}" args="{{methodArgs}}" result="{{methodResults}}"></uservices-inject>
-<uservices-event service-name="{{serviceName}}" method-name="{{eventName}}" args="{{eventArgs}}" result="{{eventUpdates}}"></uservices-inject>
+<uservices-method service-name="{{serviceName}}" method-name="{{methdName}}" args="{{methodArgs}}" result="{{methodResults}}"></uservices-method>
+<uservices-event service-name="{{serviceName}}" method-name="{{eventName}}" args="{{eventArgs}}" result="{{eventUpdates}}"></uservices-event>
 
 ```
