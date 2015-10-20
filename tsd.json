@@ -1,0 +1,18 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "polymer/polymer.d.ts": {
+      "commit": "b70895565dd5bd5de71c31e573d781409554bbf1"
+    },
+    "webcomponents.js/webcomponents.js.d.ts": {
+      "commit": "b70895565dd5bd5de71c31e573d781409554bbf1"
+    },
+    "socket.io-client/socket.io-client.d.ts": {
+      "commit": "b70895565dd5bd5de71c31e573d781409554bbf1"
+    }
+  }
+}

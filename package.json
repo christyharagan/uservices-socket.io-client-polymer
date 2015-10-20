@@ -1,8 +1,9 @@
 {
   "name": "uservices-socket.io-client-polymer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Polymer custom element to easily consume remote proxies of uServices via socket.io",
   "repository": "christyharagan/uservices-socket.io-client-polymer",
+  "typings": "index.d.ts",
   "author": {
     "name": "Christy Haragan",
     "email": "christy.haragan.github@gmail.com",

@@ -1,6 +1,6 @@
 {
   "name": "uservices-socket.io-client-polymer",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "authors": [
     "Christy Haragan <christy@christy.haragan@gmail.com>"
   ],
@@ -36,6 +36,6 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "^1.0.0"
+    "polymer": "Polymer/polymer#~1.1.5"
   }
 }
